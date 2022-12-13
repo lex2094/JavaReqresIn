@@ -33,6 +33,5 @@ public class ReqresApiTest extends TestBase {
         User user = UserMapper.map(response.data);
 
         Assertions.assertEquals(user.contact.email, response.data.email);
-
     }
 }

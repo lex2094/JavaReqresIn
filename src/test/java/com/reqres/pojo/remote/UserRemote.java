@@ -9,7 +9,7 @@ public class UserRemote {
     @JsonProperty("first_name")
     public String firstName;
 
-    @JsonProperty("first_name")
+    @JsonProperty("last_name")
     public String lastName;
 
     public String email;
